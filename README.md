@@ -55,17 +55,20 @@ cmake --build build --config Release
 2. Game Shield đã bật sẵn với profile FiveM
 3. Nhấn **Start Service** để bắt đầu bảo vệ
 4. Các player kết nối sẽ tự động được whitelist
+![huong dan]({892A55E4-960D-4D95-90A5-3CCAD5DDBEC4}.png)
 
 ### Đổi Game
 1. Mở panel **Game Shield**
 2. Chọn game từ dropdown (CS2, Minecraft, v.v.)
 3. Điều chỉnh port nếu cần
+![huong dan 2]({DA4EB2D2-AE48-406B-B39D-301E027C1411}.png)
 
 ### Khi bị DDoS mạnh
 1. Bật **STRICT Mode** (Panic)
 2. Chỉ player đang chơi được tiếp tục
 3. Block hoàn toàn kết nối mới
 4. Tắt Strict khi attack dừng
+![huong dan 3]({D9C411D1-FA2E-4AB4-8847-0E200F41E252}.png)
 
 ## Cấu trúc
 
@@ -74,6 +77,7 @@ build\bin\Release\
 ├── 0rWinShield.exe   # Ứng dụng chính
 ├── WinDivert.dll     # Driver library
 └── WinDivert64.sys   # Kernel driver
+└── config.json       # Config
 ```
 
 ## Lưu ý
